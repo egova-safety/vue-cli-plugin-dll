@@ -24,7 +24,7 @@ module.exports = class Dll {
         this.isCommand = false
         this.isOpen = false
         this.inject = this.dllConfig.inject
-
+        this.assetsOutputPath = null;
         merge(this, Dll.DefaultConfig())
         this.outputPath = this.dllConfig.output || path.join(this.context, './public', this.outputDir)
 
@@ -47,6 +47,7 @@ module.exports = class Dll {
         if (outputPath) {
             this.outputPath = outputPath
         }
+        this.assetsOutputPath =  this.outputPath.replace(path.join(this.context, './public/'),"").replace("\\","/");
     }
     initOpen() {
         let open = this.dllConfig.open
@@ -134,8 +135,8 @@ module.exports = class Dll {
             filepath,
             includeSourcemap: false,
             typeOfAsset: typeOfAsset,
-            publicPath: typeOfAsset,
-            outputPath: typeOfAsset
+            publicPath: this.webpackConfig.output.publicPath + this.assetsOutputPath,
+            outputPath: this.assetsOutputPath
         }
     }
 }
