@@ -21,11 +21,11 @@ vue -V
 
 ### Install
 ``` bash
-vue add dll 
+vue add @egova/dll 
 
 # OR 
 
-vue invoke dll
+vue invoke @egova/dll
 ```
 
 
