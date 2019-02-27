@@ -136,3 +136,9 @@ module.exports = {
    }
 }
 ```
+
+## publish
+
+```bash
+npm publish --access public
+```

@@ -1,6 +1,6 @@
 {
-    "name": "@egova/vue-cli-plugin-egova-dll",
-    "version": "1.1.5",
+    "name": "@egova/vue-cli-plugin-dll",
+    "version": "1.1.6",
     "description": "vue-cli 3 plugin for Dll and DllReference",
     "main": "service.js",
     "repository": {
