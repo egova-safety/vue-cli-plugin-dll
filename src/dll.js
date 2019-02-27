@@ -28,6 +28,9 @@ module.exports = class Dll {
         merge(this, Dll.DefaultConfig())
         this.outputPath = this.dllConfig.output || path.join(this.context, './public', this.outputDir)
 
+        if(this.dllConfig.filename){
+            this.filename = this.dllConfig.filename;
+        }
         // init
         this.initEntry()
         this.initOutputPath()

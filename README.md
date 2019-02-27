@@ -82,7 +82,7 @@ module.exports = {
 | open | true/false/'auto' | Enable DllReferencePlugin  | 'auto' | false 
 | output | String | chunk and manifest file dir | 'yourProjectPath/public/dll' | false 
 | inject | Boolean | auto inject chunk | true |  false
-
+| filename | String | chunk and manifest file name | '[name].[hash:8].dll.js' |  false
 ## more Expamle
 ### entry config
 > the entry can be configured via the pluginOptions in vue.config.js
