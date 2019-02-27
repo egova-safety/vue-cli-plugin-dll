@@ -5,9 +5,9 @@
     "main": "service.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/fingerpan/vue-cli-plugin-dll.git"
+        "url": "git+https://github.com/egova-safety/vue-cli-plugin-dll.git"
     },
-    "homepage": "https://github.com/fingerpan/vue-cli-plugin-dll#readme",
+    "homepage": "https://github.com/egova-safety/vue-cli-plugin-dll#readme",
     "keywords": [
         "vue",
         "vue-cli",
@@ -15,27 +15,10 @@
         "Dll",
         "DllReference"
     ],
-    "author": "youngpan <youngpan2014@outlook.com>",
+    "author": "chendebao <chendb1985@egmail.com>",
     "license": "MIT",
     "engines": {
         "node": ">=8.0"
-    },
-    "_development": true,
-    "_from": "vue-cli-plugin-dll@1.0.3",
-    "_id": "vue-cli-plugin-dll@1.0.3",
-    "_inBundle": false,
-    "_integrity": "sha512-C6LWRaPZMEo2p6Fy2fBUNv1KPSu6IySxne/jQObRIaeguKoc6zaqPi43Hf50FoIWT3kPgPHolcbdMzHeZvtPpA==",
-    "_location": "/vue-cli-plugin-dll",
-    "_phantomChildren": {},
-    "_requested": {
-        "type": "version",
-        "registry": true,
-        "raw": "vue-cli-plugin-dll@1.0.3",
-        "name": "vue-cli-plugin-dll",
-        "escapedName": "vue-cli-plugin-dll",
-        "rawSpec": "1.0.3",
-        "saveSpec": null,
-        "fetchSpec": "1.0.3"
     },
     "dependencies": {
         "add-asset-html-webpack-plugin": "^3.1.2"
