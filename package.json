@@ -1,5 +1,5 @@
 {
-    "name": "@egova/vue-cli-plugin-dll",
+    "name": "vue-cli-plugin-egova-dll",
     "version": "1.1.4",
     "description": "vue-cli 3 plugin for Dll and DllReference",
     "main": "service.js",
